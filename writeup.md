@@ -115,8 +115,8 @@ The code for calculating the accuracy of the model is located in the eighth cell
 
 My final model results were:
 * training set accuracy of 0.998
-* validation set accuracy of 0.946
-* test set accuracy of 0.899
+* validation set accuracy of 0.949
+* test set accuracy of 0.907
 
 I used LeNet because it's well known and relatively simple network for image recognition. At first it didn't have an accuracy over 0.93. So I increased the number of filter depth and fully connected neurons.
  
@@ -153,4 +153,4 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-All prediction of the test image was probability 1.
+The certainty of the test images was almost probability 1.
